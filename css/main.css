@@ -1,0 +1,46 @@
+nav {
+  text-align: center; }
+  nav ul {
+    list-style-type: none;
+    padding-left: 0px; }
+    nav ul li {
+      display: inline;
+      margin-left: 1em; }
+
+h1 {
+  text-align: center; }
+
+.content1 {
+  text-align: center;
+  display: inline; }
+  .content1 .image1 {
+    height: 20em;
+    width: 20em; }
+  .content1 .image2 {
+    height: 20em;
+    width: 20em; }
+  .content1 .image3 {
+    height: 20em;
+    width: 20em; }
+
+.content2 {
+  text-align: center;
+  display: inline; }
+  .content2 .image1 {
+    height: 18em;
+    width: 18em;
+    transform: rotate(90deg);
+    margin: 0.1em; }
+  .content2 .image2 {
+    height: 18em;
+    width: 18em;
+    transform: rotate(90deg);
+    margin: 0.1em; }
+  .content2 .image3 {
+    height: 18em;
+    width: 18em;
+    transform: rotate(90deg);
+    margin: 0.1em; }
+
+.content3 {
+  text-align: center; }

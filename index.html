@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  </head>
+  <body ng-app="myModule">
+
+    <h1>le animal</h1>
+    <div>
+      <nav id="nav">
+        <ul>
+          <li><a href="#/view1">LE WOOF WOOF</a></li>
+          <li><a href="#/view2">LE MEW MEW</a></li>
+          <li><a href="#/view3">LE PORPOISE</a></li>
+        </ul>
+      </nav>
+    </div>
+
+
+
+
+
+<ng-view></ng-view>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.min.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controller.js"></script>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
